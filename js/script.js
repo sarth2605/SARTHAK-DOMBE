@@ -1,0 +1,1 @@
+const t='Sarthak Dombe';let i=0;setInterval(()=>{if(i<=t.length)document.getElementById('typing').textContent=t.slice(0,i++);},120);
